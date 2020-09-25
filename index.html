@@ -23,301 +23,299 @@
         <!--   Big container   -->
         <div class="container">
             <div class="row">
-                <form action="">
-                        <div class="wizerdcontain">
-                                <!--      Wizard container        -->
-                                <div class="wizard-container">
-                                    <div class="card wizard-card" data-color="green" id="wizard">
-                                        <form action="" method="">
-                                            <!--        You can switch ' data-color="green" '  with one of the next bright colors: "blue", "green", "orange", "red"          -->
-                                            <div class="wizard-header">
-                                                <img src="assets/img/logo.png" alt="">
-                                                <h4 class="info-text"> التبرع السريع</h4>
+                <div class="wizerdcontain">
+                    <!--      Wizard container        -->
+                    <div class="wizard-container">
+                        <div class="card wizard-card" data-color="green" id="wizard">
+                            <form action="" method="">
+                                <!--        You can switch ' data-color="green" '  with one of the next bright colors: "blue", "green", "orange", "red"          -->
+                                <div class="wizard-header">
+                                    <img src="assets/img/logo.png" alt="">
+                                    <h4 class="info-text"> التبرع السريع</h4>
+                                </div>
+                                <div class="wizard-navigation">
+                                    <ul>
+                                        <li><a href="#location" data-toggle="tab">Location</a></li>
+                                        <li><a href="#type" data-toggle="tab">Type</a></li>
+                                        <li><a href="#facilities" data-toggle="tab">Facilities</a></li>
+                                        <li><a href="#description" data-toggle="tab">Description</a></li>
+                                        <li><a href="#success" data-toggle="tab">Description</a></li>
+                                        <li><a href="#description1" data-toggle="tab">Description</a></li>
+                                    </ul>
+                                </div>
+                                <div class="tab-content">
+                                    <div class="tab-pane" id="location">
+                                        <div class="row">
+                                            <div class="col-sm-6 col-sm-offset-3">
+                                                <div class="form-group">
+                                                    <label>رقم التليفون</label>
+                                                    <input type="number" class="form-control">
+                                                </div>
                                             </div>
-                                            <div class="wizard-navigation">
-                                                <ul>
-                                                    <li><a href="#location" data-toggle="tab">Location</a></li>
-                                                    <li><a href="#type" data-toggle="tab">Type</a></li>
-                                                    <li><a href="#facilities" data-toggle="tab">Facilities</a></li>
-                                                    <li><a href="#description" data-toggle="tab">Description</a></li>
-                                                    <li><a href="#success" data-toggle="tab">Description</a></li>
-                                                    <li><a href="#description1" data-toggle="tab">Description</a></li>
-                                                </ul>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="type">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اختار التاريخ </label>
+                                                    <input type="date" class="form-control">
+                                                </div>
                                             </div>
-                                            <div class="tab-content">
-                                                <div class="tab-pane" id="location">
-                                                    <div class="row">
-                                                        <div class="col-sm-6 col-sm-offset-3">
-                                                            <div class="form-group">
-                                                                <label>رقم التليفون</label>
-                                                                <input type="number" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label> اختار الوقت المتاح</label>
+                                                    <input type="text" class="form-control">
                                                 </div>
-                                                <div class="tab-pane" id="type">
-                                                    <div class="row">
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اختار التاريخ </label>
-                                                                <input type="date" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label> اختار الوقت المتاح</label>
-                                                                <input type="text" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label> عدد القطع المتبرع بها </label>
-                                                                <input type="number" class="form-control">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <label> الوصف </label>
-                                                                <textarea type="text" rows="6" class="form-control"></textarea>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label> عدد القطع المتبرع بها </label>
+                                                    <input type="number" class="form-control">
                                                 </div>
-                                                <div class="tab-pane" id="facilities">
-                                                    <h4 class="info-text">طلب تبرع جديد </h4>
-                                                    <div class="row">
-                                                        <div class="col-xs-12">
-                                                            <div class=" profile sec-profile profile-edit ">
-                                                                    <label> اختار صورة للتبرع </label>
-                                                                <div class="width-lay">
-            
-            
-                                                                    <div class="flex-img">
-                                                                        <div class="profile-pic ">
-                                                                            <div class="images-upload-block photo wow slideInDown">
-                                                                                <!------------- Note >>> profile picture is the the label background image in style.css ------------------>
-                                                                                <label class="upload-img photo"
-                                                                                    style="background-image: url(img/jone.jpg)">
-                                                                                    <input type="file" accept="image/*"
-                                                                                        class="image-uploader form-control">
-                                                                                    <i class="fa fa-plus"></i>
-                                                                                </label>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اختار الحي</label>
-                                                                <select class="form-control">
-                                                                    <option disabled="" selected="">- type -</option>
-                                                                    <option>مكة</option>
-                                                                    <option>عنيزة </option>
-                                                                    <option>الرياض</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اختار التصنيف الرئيسي</label>
-                                                                <select class="form-control">
-                                                                    <option disabled="" selected="">- response -</option>
-                                                                    <option>ملابس</option>
-                                                                    <option>احذية </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label> اختار التصنيف الفرعي</label>
-                                                                <select class="form-control">
-                                                                    <option disabled="" selected="">- response -</option>
-                                                                    <option>ملابس جديدة</option>
-                                                                    <option>ملابس مستعملة </option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                    </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label> الوصف </label>
+                                                    <textarea type="text" rows="6" class="form-control"></textarea>
                                                 </div>
-                                                <div class="tab-pane" id="description">
-                                                    <div class="row">
-                                                        <h4 class="info-text"> اختار طريقة الشحن </h4>
-                                                        <div class="col-xs-12">
-                                                            <div class="flexdivmord">
-                                                                <label for="chkYes" class="orange">
-                                                                    <input type="radio" id="chkYes" name="chkPinNo" /> تسليم بالفرع
-                                                                    <i class="fas fa-box-open"></i>
-                                                                </label>
-                                                                <label for="chkNo" id="chkno" class="receiver_form">
-                                                                    <input type="radio" id="chkNo" name="chkPinNo" />طلب التوصيل
-                                                                    <i class="fas fa-box-open"></i>
-                                                                </label>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-xs-12 contentshhiping">
-                                                            <div id="dvPinmord" class="supplier_details" style="display: none">
-                                                                <div class="col-xs-12">
-                                                                    <b>تكلفة الشحن</b><b>20 ريال </b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="facilities">
+                                        <h4 class="info-text">طلب تبرع جديد </h4>
+                                        <div class="row">
+                                            <div class="col-xs-12">
+                                                <div class=" profile sec-profile profile-edit ">
+                                                        <label> اختار صورة للتبرع </label>
+                                                    <div class="width-lay">
+
+
+                                                        <div class="flex-img">
+                                                            <div class="profile-pic ">
+                                                                <div class="images-upload-block photo wow slideInDown">
+                                                                    <!------------- Note >>> profile picture is the the label background image in style.css ------------------>
+                                                                    <label class="upload-img photo"
+                                                                        style="background-image: url(img/jone.jpg)">
+                                                                        <input type="file" accept="image/*"
+                                                                            class="image-uploader form-control">
+                                                                        <i class="fa fa-plus"></i>
+                                                                    </label>
                                                                 </div>
-                                                                <div class="col-xs-12">
-                                                                    <div>
-                                                                        <input type="radio" id="payment" name="pay" value="pay1">
-                                                                        <label for="payment">الدفع عند الاستلام</label><br>
-                                                                        <div id="driver" style="display: none">يمكنك الدفع للسائق
-                                                                            عند تسليم الطلب</div>
-                                                                        <input type="radio" id="netpayment" name="pay" value="pay2">
-                                                                        <label for="netpayment">الدفع الالكتروني</label><br>
-            
-                                                                        <div id="card" style="display: none">
-                                                                            <div>
-                                                                                <input type="radio" id="visa" name="waypay"
-                                                                                    value="pay3">
-                                                                                <label for="visa"> visa </label>
-                                                                            </div>
-            
-                                                                            <div>
-                                                                                <input type="radio" id="pay4" name="waypay"
-                                                                                    value="pay4">
-                                                                                <label for="pay4"> master card</label>
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <div class="form-group">
-                                                                        <label>رقم الكارت</label>
-                                                                        <input class="form-control" type="number">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <div class="form-group">
-                                                                        <label>اسم صاحب الكارت </label>
-                                                                        <input class="form-control" type="text">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-3">
-                                                                    <div class="form-group">
-                                                                        <label>شهر</label>
-                                                                        <input class="form-control" type="text">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-3">
-                                                                    <div class="form-group">
-                                                                        <label>سنة</label>
-                                                                        <input class="form-control" type="text">
-                                                                    </div>
-                                                                </div>
-                                                                <div class="col-sm-6">
-                                                                    <div class="form-group">
-                                                                        <label>ccv </label>
-                                                                        <input class="form-control" type="text">
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div id="dvPinuser" class="warehouse_details" style="display: none">
-                                                                <div class="col-xs-12">
-                                                                    <div style="display: none">
-                                                                        <input id="pac-input" class="controls" type="text"
-                                                                            placeholder="Enter a location" />
-                                                                    </div>
-                                                                    <div id="map"></div>
-                                                                    <div id="infowindow-content">
-                                                                        <span id="place-name" class="title"></span><br />
-                                                                        <strong>Place ID:</strong> <span id="place-id"></span><br />
-                                                                        <span id="place-address"></span>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane" id="success">
-                                                    <div class="succssed">
-                                                        <img src="assets/img/checked.png" alt="">
-                                                        <p>لقد تمت عملية الدفع بنجاح</p>
-                                                    </div>
-                                                </div>
-                                                <div class="tab-pane" id="description1">
-                                                    <div class="row">
-                                                        <div class="col-sm-12">
-                                                            <input type="radio" id="male" name="gender" value="male">
-                                                            <label for="male">Male</label><br>
-                                                            <input type="radio" id="female" name="gender" value="female">
-                                                            <label for="female">Female</label><br>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اختار التاريخ</label>
-                                                                <input class="form-control" type="date">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اختار الوقت المتاح</label>
-                                                                <input class="form-control" type="time">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>عدد القطع المتبرع بها </label>
-                                                                <input class="form-control" type="number">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-12">
-                                                            <div class="form-group">
-                                                                <label> الوصف </label>
-                                                                <textarea type="text" rows="6" class="form-control"></textarea>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>حي المتبرع </label>
-                                                                <input class="form-control" type="text" value="مكة">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>تصنيف التبرع </label>
-                                                                <input class="form-control" type="text" value="ملابس جديدة">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>اسم الفرع </label>
-                                                                <input class="form-control" type="text"
-                                                                    value="الفرع الثالث الشرقية">
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-sm-6">
-                                                            <div class="form-group">
-                                                                <label>عنوان الفرع </label>
-                                                                <input class="form-control" type="text" value=" القصيم ">
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                            <div class="wizard-footer">
-                                                <div class="pull-left">
-                                                    <input type='button' class='btn btn-next btn-fill btn-success btn-wd btn-sm'
-                                                        name='next' value='التالي' />
-                                                    <input type='button' class='btn btn-finish btn-fill btn-success btn-wd btn-sm'
-                                                        name='finish' value='انهاء' />
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اختار الحي</label>
+                                                    <select class="form-control">
+                                                        <option disabled="" selected="">- type -</option>
+                                                        <option>مكة</option>
+                                                        <option>عنيزة </option>
+                                                        <option>الرياض</option>
+                                                    </select>
                                                 </div>
-                                                <div class="pull-right">
-                                                    <input type='button' class='btn btn-previous btn-fill btn-default btn-wd btn-sm'
-                                                        name='previous' value='السابق' />
-                                                </div>
-                                                <div class="clearfix"></div>
                                             </div>
-                                        </form>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اختار التصنيف الرئيسي</label>
+                                                    <select class="form-control">
+                                                        <option disabled="" selected="">- response -</option>
+                                                        <option>ملابس</option>
+                                                        <option>احذية </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label> اختار التصنيف الفرعي</label>
+                                                    <select class="form-control">
+                                                        <option disabled="" selected="">- response -</option>
+                                                        <option>ملابس جديدة</option>
+                                                        <option>ملابس مستعملة </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="description">
+                                        <div class="row">
+                                            <h4 class="info-text"> اختار طريقة الشحن </h4>
+                                            <div class="col-xs-12">
+                                                <div class="flexdivmord">
+                                                    <label for="chkYes" class="orange">
+                                                        <input type="radio" id="chkYes" name="chkPinNo" /> تسليم بالفرع
+                                                        <i class="fas fa-box-open"></i>
+                                                    </label>
+                                                    <label for="chkNo" id="chkno" class="receiver_form">
+                                                        <input type="radio" id="chkNo" name="chkPinNo" />طلب التوصيل
+                                                        <i class="fas fa-box-open"></i>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-12 contentshhiping">
+                                                <div id="dvPinmord" class="supplier_details" style="display: none">
+                                                    <div class="col-xs-12">
+                                                        <b>تكلفة الشحن</b><b>20 ريال </b>
+                                                    </div>
+                                                    <div class="col-xs-12">
+                                                        <div>
+                                                            <input type="radio" id="payment" name="pay" value="pay1">
+                                                            <label for="payment">الدفع عند الاستلام</label><br>
+                                                            <div id="driver" style="display: none">يمكنك الدفع للسائق
+                                                                عند تسليم الطلب</div>
+                                                            <input type="radio" id="netpayment" name="pay" value="pay2">
+                                                            <label for="netpayment">الدفع الالكتروني</label><br>
+
+                                                            <div id="card" style="display: none">
+                                                                <div>
+                                                                    <input type="radio" id="visa" name="waypay"
+                                                                        value="pay3">
+                                                                    <label for="visa"> visa </label>
+                                                                </div>
+
+                                                                <div>
+                                                                    <input type="radio" id="pay4" name="waypay"
+                                                                        value="pay4">
+                                                                    <label for="pay4"> master card</label>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label>رقم الكارت</label>
+                                                            <input class="form-control" type="number">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label>اسم صاحب الكارت </label>
+                                                            <input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="form-group">
+                                                            <label>شهر</label>
+                                                            <input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-3">
+                                                        <div class="form-group">
+                                                            <label>سنة</label>
+                                                            <input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <label>ccv </label>
+                                                            <input class="form-control" type="text">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="dvPinuser" class="warehouse_details" style="display: none">
+                                                    <div class="col-xs-12">
+                                                        <div style="display: none">
+                                                            <input id="pac-input" class="controls" type="text"
+                                                                placeholder="Enter a location" />
+                                                        </div>
+                                                        <div id="map"></div>
+                                                        <div id="infowindow-content">
+                                                            <span id="place-name" class="title"></span><br />
+                                                            <strong>Place ID:</strong> <span id="place-id"></span><br />
+                                                            <span id="place-address"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="success">
+                                        <div class="succssed">
+                                            <img src="assets/img/checked.png" alt="">
+                                            <p>لقد تمت عملية الدفع بنجاح</p>
+                                        </div>
+                                    </div>
+                                    <div class="tab-pane" id="description1">
+                                        <div class="row">
+                                            <div class="col-sm-12">
+                                                <input type="radio" id="male" name="gender" value="male">
+                                                <label for="male">Male</label><br>
+                                                <input type="radio" id="female" name="gender" value="female">
+                                                <label for="female">Female</label><br>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اختار التاريخ</label>
+                                                    <input class="form-control" type="date">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اختار الوقت المتاح</label>
+                                                    <input class="form-control" type="time">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>عدد القطع المتبرع بها </label>
+                                                    <input class="form-control" type="number">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-12">
+                                                <div class="form-group">
+                                                    <label> الوصف </label>
+                                                    <textarea type="text" rows="6" class="form-control"></textarea>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>حي المتبرع </label>
+                                                    <input class="form-control" type="text" value="مكة">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>تصنيف التبرع </label>
+                                                    <input class="form-control" type="text" value="ملابس جديدة">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>اسم الفرع </label>
+                                                    <input class="form-control" type="text"
+                                                        value="الفرع الثالث الشرقية">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6">
+                                                <div class="form-group">
+                                                    <label>عنوان الفرع </label>
+                                                    <input class="form-control" type="text" value=" القصيم ">
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
-                                <!-- wizard container -->
-                            </div>
-                </form>
+                                <div class="wizard-footer">
+                                    <div class="pull-left">
+                                        <input type='button' class='btn btn-next btn-fill btn-success btn-wd btn-sm'
+                                            name='next' value='التالي' />
+                                        <input type='button' class='btn btn-finish btn-fill btn-success btn-wd btn-sm'
+                                            name='finish' value='انهاء' />
+                                    </div>
+                                    <div class="pull-right">
+                                        <input type='button' class='btn btn-previous btn-fill btn-default btn-wd btn-sm'
+                                            name='previous' value='السابق' />
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <!-- wizard container -->
+                </div>
             </div>
             <!-- row -->
         </div>
